@@ -39,7 +39,7 @@
 .nav__buttons img{
   height: 24px;
 }
-.nav__buttons img:nth-child(2){
+.nav__buttons a:nth-child(2){
   margin: 0 25px;
 }
 .logo{
@@ -67,7 +67,7 @@
   .nav__buttons{
     margin-left: auto;
   }
-  .nav__buttons img:nth-child(1){
+  .nav__buttons a:nth-child(1){
     display: none;
   }
   #burgerinput:checked ~ .nav__list{
