@@ -33,11 +33,15 @@ html{
   border: 1px solid #0B8BD5;
 }
 .button{
+  display: inline-block;
   color: #0B8BD5;
   border: 1px solid #0B8BD5;
-  height: 60px;
   padding: 0 29px;
   border-radius: 60px;
+  text-align: center;
+  height: 60px;
+  line-height: 58px;
+  padding: 0px 32px;
   font-size: 18px;
   transition: 0.2s;
 }
