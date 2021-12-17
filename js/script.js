@@ -1,4 +1,7 @@
 let timerFunction = ()=>{
+  let timerEl = document.getElementById('timer')
+  let now = new Date();
+  timerEl.innerText = now.getHours()+":"+now.getMinutes()
   fetch('https://api.ipgeolocation.io/timezone?apiKey=300bdfe9731b4a97b8959117c9415dd8&location=Russia/ulyanovsk').then(response=>{
     return response.json()
   }).then((json)=>{
@@ -11,7 +14,19 @@ let timerFunction = ()=>{
       seconds++
       minutes = Math.floor(seconds/60) - (hours * 60)
       hours = Math.floor(seconds/60/60)
-      document.getElementById('timer').innerText = hours+":"+minutes
+      if(minutes < 10){
+        if(hours < 10){
+          timerEl.innerText = "0"+hours+":"+"0"+minutes
+        }else{
+          timerEl.innerText = hours+":"+"0"+minutes
+        }
+      }else{
+        if(hours < 10){
+          timerEl.innerText = "0"+hours+":"+minutes
+        }else{
+          timerEl.innerText = hours+":"+minutes
+        }
+      }
     }, 1000);
   })
 }

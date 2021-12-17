@@ -6,6 +6,7 @@ body{
     font-size: 23.04px;
     font-family: 'Manrope', sans-serif;
     font-weight: 500;
+    max-width: 100vw;
 }
 .header{
     backdrop-filter: blur(11px);

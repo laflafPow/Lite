@@ -17,13 +17,14 @@
 <body>
     <header class="header">
         <nav class="nav">
+            <input type="checkbox" id="burgerinput">
+            <a class="logo" href="/">
+                <img src="img/pineapple.svg" alt="logo" >
+                <p>Лайт</p>
+            </a>
             <ul class="nav__list">
-                <li class="list__item logo">
-                    <img src="img/pineapple.svg" alt="logo" >
-                    <p>Лайт</p>
-                </li>
                 <li class="list__item">
-                    <a class="nav__link nav__link-active" href="#">Главная</a>
+                    <a class="nav__link nav__link-active" href="/">Главная</a>
                 </li>
                 <li class="list__item">
                     <a class="nav__link" href="#">Смартфоны</a>
@@ -34,18 +35,21 @@
                 <li class="list__item">
                     <a class="nav__link" href="#">Контакты</a>
                 </li>
-                <li class="list__item">
-                    <img src="img/Поиск.svg" alt="search">
-                    <img src="img/Корзина.svg" alt="search">
-                    <img src="img/Избранное.svg" alt="search">
-                </li>
-                <li class="list__item">
-                    <a class="nav__link" href="#" id="timer"></a>
-                </li>
             </ul>
+            <div class="nav__buttons">
+                <img src="img/Поиск.svg" alt="search">
+                <img src="img/Корзина.svg" alt="search">
+                <img src="img/Избранное.svg" alt="search">
+            </div>
+            <div class="nav__timer">
+                <p class="nav__link" id="timer"></p>
+            </div>
+            <div class="nav__burger">
+                <label for="burgerinput"><span></span><span></span></label>
+            </div>
         </nav>
     </header>
-    <section class="section section-banner">
+    <!-- <section class="section section-banner">
         <div class="offer">
             <div>
                 <p class="newIphone">Новый Iphone 13 pro</p>
@@ -62,7 +66,7 @@
         <div class="container">
             <h1>Почему выбирают наш магазин?</h1>
         </div>       
-    </div>
+    </div> -->
     <script src="js/script.js"></script>
 </body>
 </html>
