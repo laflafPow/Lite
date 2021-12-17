@@ -6,4 +6,38 @@ body{
   font-size: 23.04px;
   font-family: 'Manrope', sans-serif;
   font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+html{
+  width: 100vw;
+  height: 100vh;
+}
+.header{
+  flex: 0 0 auto;
+}
+.main{
+  flex: 1 0 auto;
+  min-height: 100vh;
+}
+.footer{
+  flex: 0 0 auto;
+}
+.button:hover{
+  transition: 0.4s;
+  color: #fff;
+  background: #0B8BD5;
+  border: 1px solid #0B8BD5;
+}
+.button{
+  color: #0B8BD5;
+  border: 1px solid #0B8BD5;
+  height: 60px;
+  padding: 0 29px;
+  border-radius: 60px;
+  font-size: 18px;
+  transition: 0.2s;
 }

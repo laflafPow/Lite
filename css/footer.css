@@ -1,0 +1,54 @@
+.footer{
+  width: 100vw;
+  min-height: 296px;
+  background: #EDEDED;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+}
+.footer-wrapp{
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 72px;
+  height: 100%;
+}
+.footer p:first-child{
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 33.18px;
+  line-height: 45px;
+}
+.footer .form{
+  display: flex;
+  max-width: 500px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 50px 0;
+}
+.footer .form .input{
+  height: 60px;
+  padding: 0 29px;
+  background: none;
+  width: 272px;
+  border-radius: 60px;
+  border: 1px solid #000000;
+  font-size: 18px;
+  text-align: center;
+}
+.footer p a{
+  text-decoration: underline;
+  margin-right: 24px;
+}
+@media (max-width:585px) {
+  .footer .form{
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer .form .button{
+    width: 272px;
+    margin-top: 24px;
+  }
+}
