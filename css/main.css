@@ -13,6 +13,7 @@ body{
     border-bottom: 1px solid;
     width: 1920px;
     top: 0px;
+    z-index: 999999;
     /* border-image-source: radial-gradient(78.13% 41.5% at 50% 91.5%, #000000 0%, rgba(0, 0, 0, 0) 77.08%); */
 }
 .container{
@@ -40,9 +41,6 @@ a{
 .tomain{
     border-bottom: 1px solid;
 }
-.offer{
-    height: 980px;
-}
 .about{
     background: #FFE3DD;
 }
@@ -63,22 +61,25 @@ margin-top: 145px;
 
 .title{
     position: absolute;
-width: 602px;
-height: 209px;
-margin-left: 341px;
-margin-top: 424px;
-font-size: 80px;
+    width: 602px;
+    height: 209px;
+    margin-left: 341px;
+    margin-top: 424px;
+    font-size: 80px;
+}
+.offer{
+    height: 980px;
 }
 
 .btnOffer{
-    position: absolute;
-width: 200px;
-height: 60px;
-margin-left: 341px;
-margin-top: 678px;
-color: #0B8BD5;
-
-border: 2px solid #0B8BD5;
-box-sizing: border-box;
-border-radius: 30px;
+    width: 200px;
+    padding: 18px 49px;
+    color: #0B8BD5;
+    border: 2px solid #0B8BD5;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+.section-banner{
+    height: 100vh;
+    width: 100vw;
 }
