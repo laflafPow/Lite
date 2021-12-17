@@ -8,37 +8,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/nullstyle.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/section-banner.css">
 </head>
 <body>
-    <!-- <header class="header">
-        <div class="container">
-            <div class="nav">
-                <div class="logo">
-                    <img src="img/pineapple.svg" alt="logo" >
-                    <p class="logotext">Лайт</p>
-                </div>
-                <p>+8 973-8-45-27-48</p>
-                <ul>
-                    <li class="navmenupoint"><a href="#" class="tomain">Главная</a></li>
-                    <li class="navmenupoint"><a href="#">Смартфоны</a></li>
-                    <li class="navmenupoint"><a href="#">Аксессуары</a></li>
-                    <li class="navmenupoint"><a href="#">Контакты</a></li>
-                    <li class="navmenupoint"><a href="#"><img src="img/Поиск.svg" alt="search"></a></li>
-                    <li class="navmenupoint"><a href="#"><img src="img/Корзина.svg" alt="shoppingcart"></a></li>
-                    <li class="navmenupoint"><a href="#"><img src="img/Избранное.svg" alt="favourite"></a></li>
-                </ul>
-                <p>14:12</p>
-            </div>
-        </div>
-    </header> -->
     <header class="header">
         <nav class="nav">
             <ul class="nav__list">
+                <li class="list__item logo">
+                    <img src="img/pineapple.svg" alt="logo" >
+                    <p>Лайт</p>
+                </li>
                 <li class="list__item">
                     <a class="nav__link nav__link-active" href="#">Главная</a>
                 </li>
@@ -52,12 +35,12 @@
                     <a class="nav__link" href="#">Контакты</a>
                 </li>
                 <li class="list__item">
-                    <img class="" src="img/Поиск.svg" alt="search">
-                    <img class="" src="img/Корзина.svg" alt="search">
-                    <img class="" src="img/Избранное.svg" alt="search">
+                    <img src="img/Поиск.svg" alt="search">
+                    <img src="img/Корзина.svg" alt="search">
+                    <img src="img/Избранное.svg" alt="search">
                 </li>
                 <li class="list__item">
-                    <a class="nav__link" href="#">14:12</a>
+                    <a class="nav__link" href="#" id="timer"></a>
                 </li>
             </ul>
         </nav>
@@ -80,5 +63,6 @@
             <h1>Почему выбирают наш магазин?</h1>
         </div>       
     </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
