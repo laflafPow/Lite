@@ -1,3 +1,4 @@
+//таймер
 let timerFunction = ()=>{
   let timerEl = document.getElementById('timer')
   let now = new Date();
