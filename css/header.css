@@ -3,7 +3,11 @@
   position: fixed;
   top: 0;
   left: 0;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid transparent;
+  border-image: radial-gradient(78.13% 41.5% at 50% 91.5%, rgba(0, 0, 0, 0.28) 0%, rgba(0, 0, 0, 0) 77.08%);
+  -moz-border-image: -moz-radial-gradient(78.13% 41.5% at 50% 91.5%, rgba(0, 0, 0, 0.28) 0%, rgba(0, 0, 0, 0) 77.08%);
+  -webkit-border-image: -webkit-radial-gradient(78.13% 41.5% at 50% 91.5%, rgba(0, 0, 0, 0.28) 0%, rgba(0, 0, 0, 0) 77.08%);
+  border-image-slice: 1;
   backdrop-filter: blur(11px);
   z-index: 999999;
   font-size: 18px;
