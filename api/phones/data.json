@@ -1,17 +1,66 @@
 {
   "data":[
     {
-      "name": "",
-      "cost": 123123,
-      "color": {
-        "name": "red",
-        "color": "#dddddd"
-      },
+      "name": "iPhone 13 Pro",
+      "cost": 99990,
+      "sale": 105990,
+      "color": [
+        {
+          "name": "blue",
+          "color": "#A0B5C7"
+        },
+
+        {
+          "name": "silver",
+          "color": "#E3E4DF" 
+        },
+
+        {
+          "name": "gold",
+          "color": "#FCEBD3" 
+        },
+
+        {
+          "name": "graphite",
+          "color": "#52514D" 
+        }
+      ],
       "images":[
         {
-          "path": "/sdfsdfsd/"
+          "path": "img/iphone-13-pro.png"
         }
-      ]
+      ],
+
+      "description": "Дисплей Super Retina XDR1 с технологией ProMotion<br>Хирургическая нержавеющая сталь<br>Надёжная защита от воды (IP68)2"
+    },
+
+    {
+      "name": "iPhone SE",
+      "cost": 36990,
+      "sale": 45500,
+      "color": [
+        {
+          "name": "black",
+          "color": "#000000"
+        },
+
+        {
+          "name": "white",
+          "color": "#F9F6EE" 
+        },
+
+        {
+          "name": "red",
+          "color": "#B90B2D" 
+        }
+      ],
+      "images":[
+        {
+          "path": "img/iphoneSE.png"
+        }
+      ],
+
+      "description": "Отличное сочетание мощного чипа A13 Bionic, популярного дизайна и доступной цены."
     }
   ]
 }
