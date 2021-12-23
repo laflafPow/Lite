@@ -29,13 +29,16 @@
   grid-template-rows: 305px 305px;
   grid-gap: 20px;
 }
-.liders__list-item{
-  background: #EDEDED;
+.liders__list-item a{
   border-radius: 20px;
-  position: relative;
   padding: 29px;
+  background: #EDEDED;
   display: flex;
   flex-direction: column;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 122px;
 }
 .liders__list-item p{
   font-family: Manrope;
@@ -65,7 +68,6 @@
 .liders__list-item:nth-child(1){
   grid-row: 1 / -1;
   grid-column: 1 / 3;
-  padding-bottom: 122px;
 }
 .liders__list-item:nth-child(1) p{
   font-family: Manrope;
@@ -82,13 +84,14 @@
     grid-template-rows: 290px 290px;
     grid-gap: 20px;
   }
-  .liders__list-item{
+  .liders__list-item a{
     background: #EDEDED;
     border-radius: 20px;
     position: relative;
     padding: 29px;
     display: flex;
     flex-direction: column;
+    padding-bottom: 122px;
   }
   .liders__list-item p{
     font-family: Manrope;
@@ -118,7 +121,6 @@
   .liders__list-item:nth-child(1){
     grid-row: 1 / -1;
     grid-column: 1 / 3;
-    padding-bottom: 122px;
   }
   .liders__list-item:nth-child(1) p{
     font-family: Manrope;
@@ -136,4 +138,10 @@
     grid-template-rows: 290px 290px;
     grid-gap: 20px;
   }
+  @media (max-width: 1024px){
+    .liders__list{
+      grid-template-columns: 290px 290px;
+      grid-template-rows: 290px 290px 290px;
+      grid-gap: 20px;
+    }
 }
