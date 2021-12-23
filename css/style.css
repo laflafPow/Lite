@@ -11,11 +11,12 @@ body{
   flex-direction: column;
   min-height: 100vh;
   width: 100vw;
-  overflow-x: hidden;
 }
 html{
   width: 100vw;
   height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 .header{
   flex: 0 0 auto;
@@ -23,6 +24,7 @@ html{
 .main{
   flex: 1 0 auto;
   min-height: 100vh;
+  overflow: hidden;
 }
 .footer{
   flex: 0 0 auto;
