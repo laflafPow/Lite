@@ -25,8 +25,8 @@
   max-width: 1424px;
   padding: 0 72px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(290px, 305px));
-  grid-template-rows: minmax(290px, 305px);
+  grid-template-columns: repeat(auto-fit, minmax(130px, 305px));
+  grid-template-rows: minmax(130px, 305px);
   justify-content: center;
   grid-gap: 20px;
 }
