@@ -1,0 +1,16 @@
+.section-sales{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  margin-bottom: 90px;
+}
+.section-sales h1{
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 47.77px;
+  line-height: 65px;
+  color: #090909;
+  margin-bottom: 90px;
+}
