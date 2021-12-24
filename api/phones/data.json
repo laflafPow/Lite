@@ -25,6 +25,24 @@
           "color": "#52514D" 
         }
       ],
+      "memory": [
+        {
+          "size": 128 
+        },
+
+        {
+          "size": 256
+        },
+
+        {
+          "size": 512 
+        },
+
+        {
+          "size": 1024 
+        }
+      ],
+
       "images":[
         {
           "path": "img/iphone-13-pro.png"
@@ -54,6 +72,17 @@
           "color": "#B90B2D" 
         }
       ],
+
+      "memory": [
+        {
+          "size": 64
+        },
+
+        {
+          "size": 128
+        }
+      ],
+
       "images":[
         {
           "path": "img/iphoneSE.png"
@@ -61,6 +90,135 @@
       ],
 
       "description": "Отличное сочетание мощного чипа A13 Bionic, популярного дизайна и доступной цены."
+    },
+
+    {
+      "name": "iPhone 11",
+      "cost_data": [
+        {
+          "cost": 49990
+        },
+
+        {
+          "cost": 54990
+        }
+      ],
+      "sale": 45500,
+      "color": [
+        {
+          "name": "black",
+          "color": "#000000"
+        },
+
+        {
+          "name": "white",
+          "color": "#F9F6EE" 
+        },
+
+        {
+          "name": "purple",
+          "color": "#D1CDDB" 
+        },
+
+        {
+          "name": "green",
+          "color": "#ADE0CD"
+        },
+
+        {
+          "name": "yellow",
+          "color": "#FFE680" 
+        },
+
+        {
+          "name": "red",
+          "color": "#BA0C2F"
+        }
+      ],
+
+      "memory": [
+        {
+          "size": 64
+        },
+
+        {
+          "size": 128
+        }
+      ],
+      
+      "images":[
+        {
+          "path": "img/iphoneSE.png"
+        }
+      ],
+
+      "description": "Потрясающей производительностью обладает смартфон APPLE iPhone 11 128Гб, MHDH3RU/A. В его основной аппаратной части находится процессор Apple A13 Bionic и оперативная память объёмом 4 Гб. Это позволяет получить безграничные возможности при работе с различными приложениями и гарантирует быстродействие системы."
+    },
+
+    {
+      "name": "iPhone 12",
+      "cost_data": [
+        {
+          "cost": 64990
+        },
+
+        {
+          "cost": 69990
+        },
+
+        {
+          "cost": 79990
+        }
+      ],
+      "color": [
+        {
+          "name": "black",
+          "color": "#000000"
+        },
+
+        {
+          "name": "white",
+          "color": "#F9F6EE" 
+        },
+
+        {
+          "name": "purple",
+          "color": "#D1CDDB" 
+        },
+
+        {
+          "name": "green",
+          "color": "#ADE0CD"
+        },
+
+        {
+          "name": "yellow",
+          "color": "#FFE680" 
+        },
+
+        {
+          "name": "red",
+          "color": "#BA0C2F"
+        }
+      ],
+
+      "memory": [
+        {
+          "size": 64
+        },
+
+        {
+          "size": 128
+        }
+      ],
+      
+      "images":[
+        {
+          "path": "img/iphoneSE.png"
+        }
+      ],
+
+      "description": "A14 Bionic, самый быстрый процессор iPhone. Дисплей OLED от края до края. И Ночной режим на всех камерах."
     }
   ]
 }
